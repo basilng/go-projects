@@ -35,3 +35,23 @@ Go resting is not like Rspec, selenium, etc!
 to make a test, create a new file ending in \_test.go
 To run all tests in a package, run the command
 `go test`
+
+### Struct
+
+Data structure, Collection of properties that are related together
+embedded struct
+
+### Pointers
+
+by default go is using pass by value language
+wherever we pass a value to a function, go will take that value and copy it in another memory location
+The slice we are storing in memory in different way it contains the value [length, capacity, ptr to head]
+ptr to head is always pointing to the same memory address in pass by value
+
+| Value Types | Reference Types |
+| ----------- | --------------- |
+| bool        | slices          |
+| string      | maps            |
+| int         | channels        |
+| float       | pointers        |
+| struct      | functions       |
