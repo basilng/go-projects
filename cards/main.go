@@ -20,16 +20,16 @@ func main() {
 	// }
 	//update replaced above code with deck print
 
-	// hand, remainingCards := deal(cards, 5)
+	hand, remainingCards := deal(cards, 5)
 	// deal is gonna return 2 values in the order we can store it to variable
-	// hand.print()
-	// remainingCards.print()
+	hand.print()
+	remainingCards.print()
 
-	// cards.saveToFile("my_cards")
+	cards.saveToFile("my_cards")
 	// saving the content to a file named my_cards
 
-	// cards2 := newDeckFromFile("my_cards")
-	// cards2.print()
+	cards2 := newDeckFromFile("my_cards")
+	cards2.print()
 
 	cards.shuffle()
 	cards.print()
