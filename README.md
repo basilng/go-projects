@@ -71,3 +71,10 @@ it's statically typed
 | \* Don't need to know all the keys at compile time      | \* Use to represent a "thing" with a lot of different properties |
 | \* Keys are indexed we can iterate over them            | \* Value Type!                                                   |
 | \* Reference Type!                                      |
+
+### Interface
+
+- interfaces are not generic types
+- interfaces are 'implicit' // no need to manually mention
+- interfaces are a contract to help us manage types
+- interface are tough.
