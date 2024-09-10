@@ -55,3 +55,21 @@ ptr to head is always pointing to the same memory address in pass by value
 | int         | channels        |
 | float       | pointers        |
 | struct      | functions       |
+
+### Map
+
+key value pair of same type
+it's statically typed
+
+### Map vs Struct
+
+#### Map
+
+| Map                                                     | Struct                                                           |
+| ------------------------------------------------------- | ---------------------------------------------------------------- |
+| \* ALl keys must be the same type                       | \* Values van be of different type                               |
+| \* Use to represent a collection of releated properties | \* You need to know all the different fields at compile time     |
+| \* All values must be the same type                     | \* Keys don't support indexing                                   |
+| \* Don't need to know all the keys at compile time      | \* Use to represent a "thing" with a lot of different properties |
+| \* Keys are indexed we can iterate over them            | \* Value Type!                                                   |
+| \* Reference Type!                                      |
