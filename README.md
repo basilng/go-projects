@@ -63,8 +63,6 @@ it's statically typed
 
 ### Map vs Struct
 
-#### Map
-
 | Map                                                     | Struct                                                           |
 | ------------------------------------------------------- | ---------------------------------------------------------------- |
 | \* ALl keys must be the same type                       | \* Values van be of different type                               |
