@@ -10,6 +10,14 @@ go to https://go.dev/dl/
 
 go to https://pkg.go.dev/std
 
+### Command Line Arguments in Go
+
+Command line arguments are available to a program in a variable named `Args` that is part of the os package.
+
+os.Args is a slice of strings
+
+- first element of the os.Args, `os.Args[0]` is the name of the command itself.
+
 #### Basic Go Types
 
 | Tyoe    | Example                    |
@@ -78,3 +86,10 @@ it's statically typed
 - interfaces are 'implicit' // no need to manually mention
 - interfaces are a contract to help us manage types
 - interface are tough.
+
+### Concurrency in Go
+
+- A `goroutine` is a concurrent function execution
+- A channel is a communication mechanism that allows one goroutine to pass values of a specified type to another goroutine
+- The function `main` runs in a `goroutine` and the `go` statement creates another `goroutine`s
+- When one `goroutine` attempts a send or receive on a channel, it blocks until another `goroutine` attempts the corresponding receive or send operation, at which point the value is transferred and both goroutines proceeed.
