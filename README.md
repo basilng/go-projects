@@ -5,10 +5,6 @@ table {
 table, th, td {
    border: none;
 }
-blockquote {
-    border-left: none;
-    padding-left: 10px;
-}
 </style>
 
 # go-projects
@@ -117,45 +113,109 @@ it's statically typed
 
 - Go has 25 keywords as listed below
 
-| `break`    | `default`     | `func`   | `interface` | `select` |
-| ---------- | ------------- | -------- | ----------- | -------- |
-| `case`     | `defer`       | `go`     | `map`       | `struct` |
-| `chan`     | `else`        | `goto`   | `packag`e`  | `switch` |
-| `const`    | `fallthrough` | `if`     | `range`     | `type`   |
-| `continue` | `for`         | `import` | `return`    | `var`    |
+<table>
+  <tr>
+    <td>`break`</td>
+    <td>`default`</td>
+    <td>`func`</td>
+    <td>`interface`</td>
+    <td>`select`</td>
+  </tr>
+  <tr>
+    <td>`case`</td>
+    <td>`defer`</td>
+    <td>`go`</td>
+    <td>`map`</td>
+    <td>`struct`</td>
+  </tr>
+  <tr>
+    <td>`chan`</td>
+    <td>`else`</td>
+    <td>`goto`</td>
+    <td>`package`</td>
+    <td>`switch`</td>
+  </tr>
+  <tr>
+    <td>`const`</td>
+    <td>`fallthrough`</td>
+    <td>`if`</td>
+    <td>`range`</td>
+     <td>`type`</td>
+  </tr>
+  <tr>
+    <td>`continue`</td>
+    <td>`for`</td>
+    <td>`import`</td>
+    <td>`return`</td>
+    <td>`var`</td>
+  </tr>
+</table>
 
 - Constants
 
-| `true` | `false` | `iota` | `nil` |
-| ------ | ------- | ------ | ----- |
+<table>
+  <tr>
+    <td>`true`</td>
+    <td>`false`</td>
+    <td>`iota`</td>
+    <td>`nil`</td>
+  </tr>
+</table>
 
 - Types
 
-| `int`     | `int8`    | `int16`      | `int32`     | `int64`  |
-| --------- | --------- | ------------ | ----------- | -------- | --------- |
-| `uint`    | `uint8`   | `uint16`     | `uint32`    | `uint64` | `uintptr` |
-| `float32` | `float64` | `complex128` | `complex64` |          |
-| `bool`    | `byte`    | `rune`       | `string`    | `error`  |
+<table>
+  <tr>
+    <td>`int`</td>
+    <td>`int8`</td>
+    <td>`int16`</td>
+    <td>`int32`</td>
+    <td>`int64`</td>
+  </tr>
+  <tr>
+    <td>`uint`</td>
+    <td>`uint8`</td>
+    <td>`uint16`</td>
+    <td>`uint32`</td>
+    <td>`uint64`</td>
+    <td>`uintptr`</td>
+  </tr>
+  <tr>
+    <td>`float32`</td>
+    <td>`float64`</td>
+    <td>`complex128`</td>
+    <td>`complex64`</td>
+    
+  </tr>
+  <tr>
+    <td>`bool`</td>
+    <td>`byte`</td>
+    <td>`rune`</td>
+    <td>`string`</td>
+    <td>`error`</td>
+  </tr>
+</table>
 
 - Functions
-  | <div> | <div> | | | |
-  | --------- | --------- | -------- | ----- | -------- |
-  | `make` | `len` | `cap` | `new` | `append` |
-  | `copy` | `close` | `delete` | | |
-  | `complex` | `real` | `img` | | |
-  | `panic` | `recover` | | | |
 
 <table>
   <tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
+    <td>`make`</td>
+    <td>`len`</td>
+    <td>`cap`</td>
+    <td>`new`</td>
+    <td>`append`</td>
+    <td>`copy`</td>
+    <td>`close`</td>
+    <td>`delete`</td>
   </tr>
   <tr>
-    <td>Data 3</td>
-    <td>Data 4</td>
+    <td>`complex`</td>
+    <td>`real`</td>
+    <td>`img`</td>
   </tr>
   <tr>
-    <td>Data 5</td>
-    <td>Data 6</td>
+    <td>`panic`</td>
+    <td>`recover`</td>
   </tr>
 </table>
