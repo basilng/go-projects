@@ -1,12 +1,3 @@
-<style>
-table {
-    border-collapse: collapse;
-}
-table, th, td {
-   border: none;
-}
-</style>
-
 # go-projects
 
 Learning Go Language By Doing Projects.
@@ -113,109 +104,109 @@ it's statically typed
 
 - Go has 25 keywords as listed below
 
-<table>
+<table style="border:none;">
   <tr>
-    <td>`break`</td>
-    <td>`default`</td>
-    <td>`func`</td>
-    <td>`interface`</td>
-    <td>`select`</td>
+    <td style="border:none;">`break`</td>
+    <td style="border:none;">`default`</td>
+    <td style="border:none;">`func`</td>
+    <td style="border:none;">`interface`</td>
+    <td style="border:none;">`select`</td>
   </tr>
   <tr>
-    <td>`case`</td>
-    <td>`defer`</td>
-    <td>`go`</td>
-    <td>`map`</td>
-    <td>`struct`</td>
+    <td style="border:none;">`case`</td>
+    <td style="border:none;">`defer`</td>
+    <td style="border:none;">`go`</td>
+    <td style="border:none;">`map`</td>
+    <td style="border:none;">`struct`</td>
   </tr>
   <tr>
-    <td>`chan`</td>
-    <td>`else`</td>
-    <td>`goto`</td>
-    <td>`package`</td>
-    <td>`switch`</td>
+    <td style="border:none;">`chan`</td>
+    <td style="border:none;">`else`</td>
+    <td style="border:none;">`goto`</td>
+    <td style="border:none;">`package`</td>
+    <td style="border:none;">`switch`</td>
   </tr>
   <tr>
-    <td>`const`</td>
-    <td>`fallthrough`</td>
-    <td>`if`</td>
-    <td>`range`</td>
-     <td>`type`</td>
+    <td style="border:none;">`const`</td>
+    <td style="border:none;">`fallthrough`</td>
+    <td style="border:none;">`if`</td>
+    <td style="border:none;">`range`</td>
+    <td style="border:none;">`type`</td>
   </tr>
   <tr>
-    <td>`continue`</td>
-    <td>`for`</td>
-    <td>`import`</td>
-    <td>`return`</td>
-    <td>`var`</td>
+    <td style="border:none;">`continue`</td>
+    <td style="border:none;">`for`</td>
+    <td style="border:none;">`import`</td>
+    <td style="border:none;">`return`</td>
+    <td style="border:none;">`var`</td>
   </tr>
 </table>
 
 - Constants
 
-<table>
+<table style="border:none;">
   <tr>
-    <td>`true`</td>
-    <td>`false`</td>
-    <td>`iota`</td>
-    <td>`nil`</td>
+    <td style="border:none;">`true`</td>
+    <td style="border:none;">`false`</td>
+    <td style="border:none;">`iota`</td>
+    <td style="border:none;">`nil`</td>
   </tr>
 </table>
 
 - Types
 
-<table>
+<table style="border:none;">
   <tr>
-    <td>`int`</td>
-    <td>`int8`</td>
-    <td>`int16`</td>
-    <td>`int32`</td>
-    <td>`int64`</td>
+    <td style="border:none;">`int`</td>
+    <td style="border:none;">`int8`</td>
+    <td style="border:none;">`int16`</td>
+    <td style="border:none;">`int32`</td>
+    <td style="border:none;">`int64`</td>
   </tr>
   <tr>
-    <td>`uint`</td>
-    <td>`uint8`</td>
-    <td>`uint16`</td>
-    <td>`uint32`</td>
-    <td>`uint64`</td>
-    <td>`uintptr`</td>
+    <td style="border:none;">`uint`</td>
+    <td style="border:none;">`uint8`</td>
+    <td style="border:none;">`uint16`</td>
+    <td style="border:none;">`uint32`</td>
+    <td style="border:none;">`uint64`</td>
+    <td style="border:none;">`uintptr`</td>
   </tr>
   <tr>
-    <td>`float32`</td>
-    <td>`float64`</td>
-    <td>`complex128`</td>
-    <td>`complex64`</td>
+    <td style="border:none;">`float32`</td>
+    <td style="border:none;">`float64`</td>
+    <td style="border:none;">`complex128`</td>
+    <td style="border:none;">`complex64`</td>
     
   </tr>
   <tr>
-    <td>`bool`</td>
-    <td>`byte`</td>
-    <td>`rune`</td>
-    <td>`string`</td>
-    <td>`error`</td>
+    <td style="border:none;">`bool`</td>
+    <td style="border:none;">`byte`</td>
+    <td style="border:none;">`rune`</td>
+    <td style="border:none;">`string`</td>
+    <td style="border:none;">`error`</td>
   </tr>
 </table>
 
 - Functions
 
-<table>
+<table style="border:none;">
   <tr>
-    <td>`make`</td>
-    <td>`len`</td>
-    <td>`cap`</td>
-    <td>`new`</td>
-    <td>`append`</td>
-    <td>`copy`</td>
-    <td>`close`</td>
-    <td>`delete`</td>
+    <td style="border:none;">`make`</td>
+    <td style="border:none;">`len`</td>
+    <td style="border:none;">`cap`</td>
+    <td style="border:none;">`new`</td>
+    <td style="border:none;">`append`</td>
+    <td style="border:none;">`copy`</td>
+    <td style="border:none;">`close`</td>
+    <td style="border:none;">`delete`</td>
   </tr>
   <tr>
-    <td>`complex`</td>
-    <td>`real`</td>
-    <td>`img`</td>
+    <td style="border:none;">`complex`</td>
+    <td style="border:none;">`real`</td>
+    <td style="border:none;">`img`</td>
   </tr>
   <tr>
-    <td>`panic`</td>
-    <td>`recover`</td>
+    <td style="border:none;">`panic`</td>
+    <td style="border:none;">`recover`</td>
   </tr>
 </table>
