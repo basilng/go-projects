@@ -1,3 +1,16 @@
+<style>
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: none;
+}
+blockquote {
+    border-left: none;
+    padding-left: 10px;
+}
+</style>
+
 # go-projects
 
 Learning Go Language By Doing Projects.
@@ -125,9 +138,24 @@ it's statically typed
 | `bool`    | `byte`    | `rune`       | `string`    | `error`  |
 
 - Functions
+  | <div> | <div> | | | |
+  | --------- | --------- | -------- | ----- | -------- |
+  | `make` | `len` | `cap` | `new` | `append` |
+  | `copy` | `close` | `delete` | | |
+  | `complex` | `real` | `img` | | |
+  | `panic` | `recover` | | | |
 
-| `make`    | `len`     | `cap`    | `new` | `append` |
-| --------- | --------- | -------- | ----- | -------- |
-| `copy`    | `close`   | `delete` |       |          |
-| `complex` | `real`    | `img`    |       |          |
-| `panic`   | `recover` |          |       |          |
+<table>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+    <td>Data 4</td>
+  </tr>
+  <tr>
+    <td>Data 5</td>
+    <td>Data 6</td>
+  </tr>
+</table>
